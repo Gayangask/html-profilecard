@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{  margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+
+
+}.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 370px;
+    width: 100%;
+    background-color: #faf3f3;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(0,0,0, 0.2);
+    border-radius: 24px;
+    
+    
+
+
+
+
+}.image{
+   
+    height: 150px;
+    width: 150px;
+   margin-bottom: 10px;
+
+
+
+}.profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: aqua;
+
+
+
+}.profile-card .text-data{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.name{
+margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: crimson;
+}.job{
+    font-weight: 600;
+    margin-bottom: 20px;
+}.buttons .button{
+        background-color: blue;
+        margin:0 10px;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 24px;   
+        color: white;
+        font-size: 14px;
+        margin-top: 20px;
+
+
+    
+}.youtube-sub{
+
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+
+}.buttons .button:hover{
+    background-color: rgb(83, 83, 242);
+    transition: all 0.3s ease;
+    cursor: pointer;
+        
+
+}.analytics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0;
+    padding: 0 10px;
+    
+    
+    
+
+    
+}.analytics .data{
+    border-right: 2px solid black;
+    padding:0 20px;
+
+    
+}.analytics .data:last-child{
+
+    border-right: none;
+}.data .numbers{
+
+    font-size: 13px;
+}
